@@ -47,11 +47,11 @@
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Leelawadee", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Leelawadee", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.DimGray;
-            this.cityOutput.Location = new System.Drawing.Point(31, 8);
+            this.cityOutput.Location = new System.Drawing.Point(65, 12);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(260, 40);
+            this.cityOutput.Size = new System.Drawing.Size(195, 40);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             // 
@@ -82,18 +82,18 @@
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Leelawadee", 16F);
             this.currentOutput.ForeColor = System.Drawing.Color.DimGray;
-            this.currentOutput.Location = new System.Drawing.Point(358, 82);
+            this.currentOutput.Location = new System.Drawing.Point(330, 82);
             this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(190, 32);
+            this.currentOutput.Size = new System.Drawing.Size(359, 32);
             this.currentOutput.TabIndex = 28;
-            this.currentOutput.Text = "and weather condition.";
+            this.currentOutput.Text = "with \"WEATHER\"";
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Leelawadee", 16F);
             this.titleLabel.ForeColor = System.Drawing.Color.DimGray;
-            this.titleLabel.Location = new System.Drawing.Point(32, 82);
+            this.titleLabel.Location = new System.Drawing.Point(55, 82);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(153, 26);
             this.titleLabel.TabIndex = 26;
@@ -193,7 +193,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.iconBox);
             this.Controls.Add(this.symbolLabel3);
             this.Controls.Add(this.symbolLabel2);
